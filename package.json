@@ -1,0 +1,24 @@
+{
+  "name": "clock-helper-cli",
+  "version": "0.1.0",
+  "description": "A clock helper for querying the time of startup and shutdown",
+  "bin": {
+    "clock-helper": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "keqingrong/clock-helper-cli",
+  "keywords": [
+    "eventvwr",
+    "poweroff",
+    "shutdown",
+    "startup"
+  ],
+  "author": "Qingrong Ke <keqingrong@outlook.com> (https://keqingrong.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "clock-helper": "^0.2.0",
+    "meow": "^6.0.0"
+  }
+}
