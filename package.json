@@ -18,7 +18,7 @@
   "author": "Qingrong Ke <keqingrong@outlook.com> (https://keqingrong.github.io/)",
   "license": "MIT",
   "dependencies": {
-    "clock-helper": "^0.2.0",
+    "clock-helper": "^1.0.0",
     "meow": "^6.0.0"
   }
 }
