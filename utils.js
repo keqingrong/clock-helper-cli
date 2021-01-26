@@ -30,6 +30,7 @@ function parseDates(dates = []) {
 /**
  * 时间去重，以天为单位，同一天取最早时间
  * @param {Date[]} dates
+ * @returns {Date[]}
  * @example
  * ['2019-09-04 12:00:15', '2019-09-04 18:01:53', '2019-09-04 20:35:32']
  * =>
@@ -57,6 +58,7 @@ function uniqDateByEarliestTime(dates) {
 /**
  * 时间去重，以天为单位，同一天取最晚时间
  * @param {Date[]} dates
+ * @returns {Date[]}
  * @example
  * ['2019-09-04 12:00:15', '2019-09-04 18:01:53', '2019-09-04 20:35:32']
  * =>
