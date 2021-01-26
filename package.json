@@ -6,7 +6,7 @@
     "clock-helper": "cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": "keqingrong/clock-helper-cli",
   "keywords": [
@@ -20,5 +20,8 @@
   "dependencies": {
     "clock-helper": "^1.0.0",
     "meow": "^6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
   }
 }
