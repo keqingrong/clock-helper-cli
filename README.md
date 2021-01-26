@@ -22,12 +22,15 @@ $ clock-helper --help
     --startup   Only show the timeline of system startup
     --shutdown  Only show the timeline of system shutdown
     --desc      Sort the timeline in descending order
+    --uniq      Get all unique dates in terms of day by the earliest/latest time
 
   Example
     $ clock-helper
     $ clock-helper --startup
     $ clock-helper --shutdown
     $ clock-helper --desc
+    $ clock-helper --uniq=earliest
+    $ clock-helper --uniq=latest
 
 $ clock-helper
 
@@ -43,6 +46,8 @@ Shutdown history:
 2020-02-02 17:18:00
 2020-02-02 21:10:00
 2020-02-03 23:22:00
+
+$ clock-helper --shutdown --uniq=latest
 ```
 
 ## License
