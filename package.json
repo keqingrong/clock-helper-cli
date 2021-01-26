@@ -1,6 +1,6 @@
 {
   "name": "clock-helper-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A clock helper for querying the time of startup and shutdown",
   "bin": {
     "clock-helper": "cli.js"
