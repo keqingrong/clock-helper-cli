@@ -7,7 +7,7 @@
 ## Installation
 
 ```sh
-$ npm install clock-helper-cli
+$ npm install -g clock-helper-cli
 ```
 
 ## Usage
