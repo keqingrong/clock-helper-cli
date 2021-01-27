@@ -61,7 +61,7 @@ const cli = meow(
         uniq = uniqDateByEarliestTime;
         break;
       case 'latest':
-        uniq = uniqDateByEarliestTime;
+        uniq = uniqDateByLatestTime;
         break;
       default:
         uniq = defaultUniq;
